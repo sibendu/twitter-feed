@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: twitter-feed-v1
-  labels:
+  labels: 
     commit: ${WERCKER_GIT_COMMIT}
 spec:
   replicas: 2
